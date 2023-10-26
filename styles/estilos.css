@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*llamo al titulo con .*/
+.titulo {
+    text-align: center;
+    /*para centrar el titulo*/
+    color: rgb(66, 132, 158);
+    font-size: 28px;
+    /*tamaño de la letra*/
+    text-shadow: 2px 1px 2px black;
+    /*x,y,sombra,color de sombra*/
+    text-transform: initial;
+    letter-spacing: 1.5px;
+}
+
+.contenedor-tarjetas .tarjeta .contenido-tarjeta span {
+    display: block;
+}
+
+.contenedor-tarjetas {
+    margin: 20px;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.contenedor-tarjetas .tarjeta {
+    box-shadow: 10px 10px 10px #10113b, -10px -10px 10px #021ef1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(157, 157, 219);
+    width: max-content;
+}
+
+.contenedor-tarjetas .tarjeta:first-child {
+    margin-right: 30px;
+}
+
+body {
+    background-color: rgb(66, 22, 144);
+}
